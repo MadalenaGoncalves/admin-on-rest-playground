@@ -3,7 +3,7 @@ import { jsonServerRestClient, Admin, Resource } from 'admin-on-rest';
 
 import { ResultsList, ResultsEdit, ResultsCreate } from './results';
 
-const fakeDB = 'https://my-json-server.typicode.com/MadalenaGoncalves/fakeJsonServer';
+const fakeDB = 'https://my-json-server.typicode.com/MadalenaGoncalves/admin-on-rest-playground';
 const App = () => (
   <Admin restClient={jsonServerRestClient(fakeDB)}>
     <Resource name="user" list={ResultsList} edit={ResultsEdit} create={ResultsCreate} />

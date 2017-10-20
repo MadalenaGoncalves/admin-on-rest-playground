@@ -6,7 +6,7 @@ import { ResultsList, ResultsEdit, ResultsCreate } from './results';
 const fakeDB = 'https://my-json-server.typicode.com/MadalenaGoncalves/admin-on-rest-playground';
 const App = () => (
   <Admin restClient={jsonServerRestClient(fakeDB)}>
-    <Resource name="user" list={ResultsList} edit={ResultsEdit} create={ResultsCreate} />
+    <Resource name="users" list={ResultsList} edit={ResultsEdit} create={ResultsCreate} />
   </Admin>
 );
 

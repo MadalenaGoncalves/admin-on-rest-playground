@@ -2,14 +2,14 @@
   "results": [
     {
       "id": 1,
-      "date": "19-10-2017",
+      "date": "2017-10-19",
       "time_in_zone5": 600,
       "time_in_zone4": 1200,
       "time_in_zone3": 400
     },
     {
       "id": 2,
-      "date": "18-10-2017",
+      "date": "2017-10-18",
       "time_in_zone5": 500,
       "time_in_zone4": 900,
       "time_in_zone3": 600

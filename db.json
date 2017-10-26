@@ -5,14 +5,18 @@
       "date": "2017-10-19",
       "time_in_zone5": 600,
       "time_in_zone4": 1200,
-      "time_in_zone3": 400
+      "time_in_zone3": 400,
+      "ss": "1"
     },
     {
       "id": 2,
       "date": "2017-10-18",
-      "time_in_zone5": 500,
+      "time_in_zone5": 7278,
       "time_in_zone4": 900,
-      "time_in_zone3": 600
+      "time_in_zone3": 600,
+      "hh": 2,
+      "ss": 10,
+      "mm": ""
     }
   ]
 }

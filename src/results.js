@@ -17,19 +17,17 @@ export const ResultsList = (props) => (
   </List>
 );
 
-export const ResultsEdit = (props) => {
-  return (
-    <Edit {...props}>
-      <SimpleForm>
-        <DisabledInput source="id" />
-        <DateInput source="date" />
-        <SecsAsHHmmSSInput source="time_in_zone5" label="Time in zone 5"/>
-        {/* <SecsAsHHmmSSInput source="time_in_zone4" label="Time in zone 4"/>
-        <SecsAsHHmmSSInput source="time_in_zone3" label="Time in zone 3"/> */}
-      </SimpleForm>
-    </Edit>
-  )
-};
+export const ResultsEdit = (props) => (
+  <Edit {...props}>
+    <SimpleForm>
+      <DisabledInput source="id" />
+      <DateInput source="date" />
+      <SecsAsHHmmSSInput source="time_in_zone5" label="Time in zone 5" />
+      <SecsAsHHmmSSInput source="time_in_zone4" label="Time in zone 4"/>
+      <SecsAsHHmmSSInput source="time_in_zone3" label="Time in zone 3"/>
+    </SimpleForm>
+  </Edit>
+);
 
 export const ResultsCreate = (props) => (
   <Create {...props}>
